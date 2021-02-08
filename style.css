@@ -1,0 +1,80 @@
+* {
+  font-size: 40px;
+  color: rgb(161, 155, 155);
+  margin: 0;
+}
+
+.germany {
+  width: 320px;
+
+}
+
+.child-black {
+  background-color: black;
+  width: 320px;
+  height: 80px;
+}
+
+.child-red {
+  background-color: red;
+  width: 320px;
+  height: 80px;
+
+}
+
+.child-yellow {
+  background-color: yellow;
+  width: 320px;
+  height: 80px;
+}
+
+.germany:hover .child-black {
+background-color: red;
+}
+
+.germany:hover .child-red {
+  background-color: white;
+  }
+
+.germany:hover .child-yellow {
+    background-color: green;
+    }
+
+
+.france {
+  margin-top: 40px;
+  width: 320px;
+}
+
+.child-bleu {
+  background-color: blue;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
+
+.child-blanc {
+  background-color: white;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
+
+.child-rouge {
+  background-color: red;
+  width: 100px;
+  height: 320px;
+  display: inline-block;
+}
+
+.france:hover .child-bleu {
+  background-color: green;
+  }
+  
+.france:hover .child-red {
+    background-color: white;
+    }
+  
+.france:hover .child-yellow {
+      background-color: orange;
+      }
